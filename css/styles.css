@@ -1,0 +1,42 @@
+body{
+	background-color: white;
+}
+
+.container{
+
+	margin: 0 auto; /*centres the web page*/
+	width: 0 auto;
+	font-size: 100%;
+	line-height: 1.5;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+	font-size: 12px;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+nav > ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+nav > ul > li{
+	margin: 20px 10px 0px 10px;
+}
+
+.top-nav-margin{
+	float: right;
+}
+
+.user-profile{
+	margin-top: 15px;
+}
+
+main > section > p > span > a{
+	color: blue;
+}
