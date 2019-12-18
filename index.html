@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="utf-8" />
-	<title>Center Page Framework</title>
+	<title>Google</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
@@ -13,28 +13,35 @@
 		<header>
 			<nav>
 				<ul>
-					<li><a href="#">About</a></li>
-					<li><a href="#">Store</a></li>
-					<li class="top-nav-margin"><a href="#">Gmail</a></li>
-					<li><a href="#">Images</a></li>
-					<li><a href="#"><img src="img/google-apps.png" alt="google apps"></a></li>
-					<li class="user-profile"><a href="#"><img src="img/user-profile.png" alt="user profile"></a></li>
+					<div class="top-nav-margin-left">
+						<li><a href="#">About</a></li>
+						<li><a href="#">Store</a></li>
+					</div>
+					<div class="top-nav-margin-right">
+						<li><a href="#">Gmail</a></li>
+						<li><a href="#">Images</a></li>
+						<li><a href="#"><img src="img/google-apps.png" alt="google apps"></a></li>
+						<li class="user-profile"><a href="#"><img src="img/user-profile.png" alt="user profile"></a>
+						</li>
+					</div>
 				</ul>
 			</nav>
 		</header>
-		<main>
+		<main class="center-main">
 			<section>
 				<div>
-					<img src="img/google-logo.png" alt="google logo">
-				</div>
-				<div>
-					<form action="search">
-						<input type="search">
-					</form>
-					<button>Google Search</button>
-					<button>I'm Feeling Lucky</button>
-				</div>
-				<p>Google offered in: <span><a href="#">Français</a></span></p>
+					<div class="google-margin">
+						<img src="img/google-logo.png" alt="google logo">
+					</div>
+					<div>
+						<form action="search">
+							<input type="search">
+						</form>
+						<button>Google Search</button>
+						<button>I'm Feeling Lucky</button>
+					</div>
+					<p>Google offered in: <span><a href="#">Français</a></span></p>
+				</div>				
 			</section>
 		</main>
 		<footer>
@@ -42,7 +49,7 @@
 				<h2>Canada</h2>
 			</div>
 			<nav>
-				<ul>
+				<ul class="footer-ul">
 					<li><a href="#">Advertising</a></li>
 					<li><a href="#">Business</a></li>
 					<li><a href="#">How Search Works</a></li>

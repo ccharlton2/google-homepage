@@ -20,16 +20,25 @@ a:hover{
 	text-decoration: underline;
 }
 
-nav > ul{
+.footer-ul{
 	display: flex;
 	flex-wrap: wrap;
 }
 
-nav > ul > li{
+nav > ul > div{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+nav > ul > div > li{
 	margin: 20px 10px 0px 10px;
 }
 
-.top-nav-margin{
+.top-nav-margin-left{
+	float: left;
+}
+
+.top-nav-margin-right{
 	float: right;
 }
 
@@ -39,4 +48,31 @@ nav > ul > li{
 
 main > section > p > span > a{
 	color: blue;
+}
+
+.center-main{
+	text-align: center;
+	display: flex;
+	margin: auto;
+}
+
+.google-margin{
+	margin-top: 200px;
+	margin-bottom: 25px;
+}
+
+.center-main > section{
+	margin: auto;
+}
+
+.center-main > section > div > div > form > input{
+	width: 600px;
+	height: 35px;
+	border: 1px solid grey;
+	border-radius: 20px;
+	margin-bottom: 30px;
+}
+
+.center-main > section > div{
+	margin: 10px 0px;
 }
