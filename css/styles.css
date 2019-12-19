@@ -1,5 +1,6 @@
 body{
 	background-color: white;
+	font-family: Arial;
 }
 
 .container{
@@ -8,6 +9,8 @@ body{
 	width: 0 auto;
 	font-size: 100%;
 	line-height: 1.5;
+	position: relative;
+  min-height: 100vh;
 }
 
 a{
@@ -46,8 +49,12 @@ nav > ul > div > li{
 	margin-top: 15px;
 }
 
-main > section > p > span > a{
+.center-main > section > div > p > span > a{
 	color: blue;
+}
+
+.center-main > section > div > p{
+	margin-top: 20px;
 }
 
 .center-main{
@@ -68,11 +75,51 @@ main > section > p > span > a{
 .center-main > section > div > div > form > input{
 	width: 600px;
 	height: 35px;
-	border: 1px solid grey;
+	border: 1px solid #e4e4e4;
 	border-radius: 20px;
 	margin-bottom: 30px;
 }
 
 .center-main > section > div{
 	margin: 10px 0px;
+}
+
+.center-main > section > div > div > button{
+	background-color: #f2f2f2;
+	padding: 10px 5px;
+	margin: 0px 5px;
+	border: 1px solid #f2f2f2;
+	border-radius: 5px;
+}
+
+.center-main > section > div > div > button:hover{
+	border: 1px solid #e4e4e4;
+}
+
+footer > div{
+	border-top: 1px solid #e4e4e4;
+	border-bottom: 1px solid #e4e4e4;
+	padding: 10px 0px 10px 10px;
+}
+
+footer > nav{
+	background-color: #f2f2f2;
+}
+
+footer > nav > ul > div > li{
+	margin: 0px 10px;	
+}
+
+footer > nav > ul > div > li > a{
+	color: #686770;	
+}
+
+footer{
+	position: absolute;
+  	bottom: 0;
+  	width: 100%;
+	height: 2.5rem;
+	padding-bottom: 2.5rem; 
+	background-color: #f2f2f2;
+	color: #686770;
 }
